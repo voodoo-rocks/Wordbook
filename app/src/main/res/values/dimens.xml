@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_expand_height">240dp</dimen>
+    <dimen name="clickable_range">48dp</dimen>
+    <dimen name="activity_default_margin">16dp</dimen>
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="content_items_margin">4dp</dimen>
+
+    <dimen name="half_content_items_margin">2dp</dimen>
+    <dimen name="seek_bar_indicator_text_size">30sp</dimen>
+    <dimen name="selected_words_text_indicator_size">40sp</dimen>
+    <dimen name="btn_select_words_side_padding">16dp</dimen>
+    <dimen name="btn_select_words_top_bottom_padding">4dp</dimen>
+    <dimen name="btn_select_words_corner_radius">8dp</dimen>
+    <dimen name="btn_select_words_stroke_width">2dp</dimen>
+</resources>

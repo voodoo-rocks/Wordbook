@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Wordbook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="total_words_count">Total words: %d</string>
+    <string name="select_all">select all</string>
+    <string name="unselect_all">unselect all</string>
+    <string name="sort_native_az">native aZ</string>
+    <string name="sort_native_za">native zA</string>
+    <string name="sort_learn_az">learn aZ</string>
+    <string name="sort_learn_za">learn zA</string>
+    <string name="sort_adding_desc">by adding ▼</string>
+    <string name="sort_adding_asc">by adding ▲</string>
+
+    <string name="correct_number_indicator">correct: %d</string>
+    <string name="incorrect_number_indicator">incorrect: %d</string>
+    <string name="total_number_indicator">total: %s</string>
+    <string name="current_number_indicator">current: %d</string>
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="infinity">infinity</string>
+    <string name="cannnot_find_selected_words">cannot find selected words</string>
+    <string name="reselect">reselect</string>
+    <string name="word_successfully_added">word successfully added</string>
+    <string name="word_add_was_failed">word add was failed</string>
+    <string name="retry">retry</string>
+    <string name="dialog_ttl_delete_word">Delete word</string>
+    <string name="dialog_msg_delete_word">Are you sure want to delete %d words</string>
+    <string name="word_was_edited">word was edited</string>
+    <string name="word_edit_was_failed">word edit was failed</string>
+    <string name="dialog_ttl_edit_word">Edit word</string>
+    <string name="ok">ok</string>
+    <string name="yes_delete">yes, delete</string>
+    <string name="no_do_not">no, don\'t</string>
+    <string name="number_words_was_deleted">%d words was deleted</string>
+    <string name="words_delete_was_failed">words delete was failed</string>
+    <string name="all_words_selected">all word selected</string>
+    <string name="all_expect_numer">ALL EXCEPT %d</string>
+    <string name="infinity_game">infinity game</string>
+    <string name="yes_edit">yes, edit</string>
+    <string name="all_selected">all selected</string>
+    <string name="not_selected">not selected</string>
+    <string name="all_except_number">all except %d</string>
+    <string name="dialog_ttl_hundred_verbs">Insert verbs</string>
+    <string name="dialog_msg_hundred_verbs">Do you want to insert one hundred most useful english verbs?</string>
+
+    <string name="yes_insert">yes insert</string>
+    <string name="insert_failed">insert failed</string>
+    <string name="hundred_verbs_inserted">hundred verbs was inserted</string>
+
+    <string name="about_txt">
+        "Добавляйте слова в словарь. Учите слова играя в игру-опрос.\n"
+        "Цвет фона элемента списка слов будет меняться в связи с вашим прогрессом.\n"
+        "Желтый - по умолчанию, зеленый - хорошо, красный - плохо, черный - все очень плохо.\n"
+    </string>
+    <string name="navigation_ttl_about">About app</string>
+    <string name="navigation_ttl_export_import">Export/Import</string>
+    <string name="navigation_ttl_game">Game</string>
+    <string name="navigation_cat_communicate">Communicate</string>
+    <string name="native_word">native word</string>
+    <string name="learn_word">learn word</string>
+    <string name="number_of_variants_label">Number of variants:</string>
+    <string name="total_question_label">Total questions:</string>
+    <string name="question_language_label">Question language:</string>
+    <string name="quiz_word">Quiz word:</string>
+    <string name="random">random</string>
+    <string name="learn">learn</string>
+    <string name="native_string">native</string>
+
+
+</resources>

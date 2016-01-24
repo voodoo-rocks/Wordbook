@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my.beelzik.mobile.wordbook.ui.widget.fraction.FractionScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_default_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/number_of_variants_label"
+                android:id="@+id/textView4"
+                android:layout_marginBottom="@dimen/content_items_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4"
+                android:id="@+id/textNumberVariant"
+                android:textColor="@color/colorBlueDark"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/content_items_margin"
+                android:textSize="@dimen/seek_bar_indicator_text_size" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/barNumberVariant"
+                android:max="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_default_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView5"
+                android:text="@string/total_question_label"
+                android:layout_marginBottom="@dimen/content_items_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="10"
+                android:textAllCaps="true"
+                android:id="@+id/textNumberQuestion"
+                android:textColor="@color/colorBlueDark"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/content_items_margin"
+                android:textSize="@dimen/seek_bar_indicator_text_size" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="191"
+                android:id="@+id/barNumberQuestion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_default_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView6"
+                android:text="@string/question_language_label"
+                android:layout_marginBottom="@dimen/content_margin" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:showDividers="beginning|middle|end"
+                android:gravity="end"
+                android:id="@+id/radioGroupLanguage">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="@string/native_string"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/radioNative" />
+                <RadioButton
+                    android:text="@string/learn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/radioLearn" />
+                <RadioButton
+                    android:text="@string/random"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/radioRandom" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_default_margin"
+            android:id="@+id/selectWord">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView8"
+                android:text="@string/quiz_word"
+                android:layout_marginBottom="@dimen/content_items_margin" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="100"
+                android:id="@+id/textSelectWord"
+                android:textColor="@color/colorBlueDark"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_select_word_background"
+                android:layout_marginBottom="@dimen/content_items_margin"
+                android:textSize="@dimen/selected_words_text_indicator_size"
+                android:paddingLeft="@dimen/btn_select_words_side_padding"
+                android:paddingRight="@dimen/btn_select_words_side_padding"
+                android:paddingTop="@dimen/btn_select_words_top_bottom_padding"
+                android:paddingBottom="@dimen/btn_select_words_top_bottom_padding" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="use as default"
+            android:id="@+id/boxUseAsDefault"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/content_margin"
+            android:layout_marginLeft="@dimen/activity_default_margin"
+            android:layout_marginRight="@dimen/activity_default_margin" />
+    </LinearLayout>
+
+</my.beelzik.mobile.wordbook.ui.widget.fraction.FractionScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorCorrectIndicator">#0af00e</color>
+    <color name="textColorIncorrectIndicator">#ed8989</color>
+
+    <color name="cellSelectedBackground">#50000000</color>
+
+
+    <color name="colorDarkGray">#282323</color>
+    <color name="colorBlueDark">#ff0099cc</color>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="by adding ▼"
+
+        android:id="@+id/menu_group_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:id="@+id/group_sort">
+            <item
+                android:id="@+id/sort_native_az"
+                android:title="@string/sort_native_az"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"/>
+            <item
+                android:id="@+id/sort_native_za"
+                android:title="@string/sort_native_za"
+                android:icon="@android:drawable/ic_menu_sort_by_size"/>
+            <item
+                android:id="@+id/sort_learn_az"
+                android:title="@string/sort_learn_az"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"/>
+            <item
+                android:id="@+id/sort_learn_za"
+                android:title="@string/sort_learn_za"
+                android:icon="@android:drawable/ic_menu_sort_by_size"/>
+            <item
+                android:id="@+id/sort_date"
+                android:title="@string/sort_adding_asc"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"/>
+            <item
+                android:id="@+id/sort_date_invert"
+                android:title="@string/sort_adding_desc"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
